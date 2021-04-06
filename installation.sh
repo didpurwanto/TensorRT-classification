@@ -9,6 +9,10 @@ opencv-python==4.2.0.34
 python3.6 
 CUDA10.0
 
+Install pytorch
+python3.6 -m pip install torch==1.2.0
+python3.6 -m pip install torchvision==0.4.0
+export TRT_DATADIR=/home/didpurwanto/Documents/important/TensorRT-6.0.1.5/data
 
 Install TensorRT
 Download CUDA10.0 https://developer.nvidia.com/cuda-10.0-download-archive
